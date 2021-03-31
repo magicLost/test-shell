@@ -25,7 +25,7 @@ const gitCommit = async (commitText) => {
 };
 
 const gitStatus = async () => {
-  const { stdout, stderr } = await shellExec(`git status"`);
+  const { stdout, stderr } = await shellExec(`git status`);
 
   //console.log("stdout", stdout);
 
@@ -35,7 +35,7 @@ const gitStatus = async () => {
 };
 
 const gitPush = async () => {
-  const { stdout, stderr } = await shellExec(`git push -u origin master`);
+  const { stdout, stderr } = await shellExec(`git push origin master`);
 
   console.log("stdout", stdout);
 
