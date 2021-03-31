@@ -1,0 +1,19 @@
+{
+  "name": "linux-shell",
+  "version": "1.0.0",
+  "description": "- Can we start linux commands like git by server - Can we push our changes to github",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/server/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "cross-env": "^7.0.3",
+    "express": "^4.17.1",
+    "waait": "^1.0.5"
+  }
+}
