@@ -71,7 +71,7 @@ const checkCommitedFiles = (stdout) => {
   if (res !== null) throw Error(`We get bad files ${JSON.stringify(res)}`);
 };
 
-const makeCommit = async () => {
+exports.makeCommit = async () => {
   await gitAdd();
 
   const filesToCommit = await gitStatus();
@@ -83,4 +83,4 @@ const makeCommit = async () => {
   await gitPush();
 };
 
-makeCommit();
+//makeCommit();
