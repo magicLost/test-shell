@@ -1,6 +1,6 @@
 {
-  "name": "linux-shell",
-  "version": "1.0.0",
+  "name": "happy-shell",
+  "version": "0.0.1",
   "description": "- Can we start linux commands like git by server - Can we push our changes to github",
   "main": "index.js",
   "scripts": {
@@ -10,10 +10,14 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
+  "devDependencies": {
+    "@types/node": "^16.4.3",
     "cors": "^2.8.5",
     "cross-env": "^7.0.3",
     "express": "^4.17.1",
     "waait": "^1.0.5"
+  },
+  "dependencies": {
+    "dotenv": "^10.0.0"
   }
 }

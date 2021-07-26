@@ -2,7 +2,7 @@ const express = require("express");
 const path = require("path");
 const cors = require("cors");
 const wait = require("waait");
-const { makeCommit } = require("../utils/Shell");
+const Git = require("../service/Git");
 
 const app = express();
 const port = 3009;
